@@ -1,0 +1,72 @@
+-
+    user:
+      id: 1
+      username: admin
+      email: admin@email.io
+      first_name: Amin
+      last_name: L'admin
+      password: admin
+    role: admin
+-
+    user:
+      id: 2
+      username: pduval
+      email: pduval@email.io
+      first_name: Pierre
+      last_name: Duval
+      password: pduval
+    role: Editors
+-
+    user:
+      id: 3
+      username: jprevert
+      email: jprevert@email.io
+      first_name: Jacques
+      last_name: Prévert
+      password: jprevert
+    role: Editors
+-
+    user:
+      id: 4
+      username: rdurand
+      email: rdurand@email.io
+      first_name: Robert
+      last_name: Durand
+      password: pduval
+    role: Moderators
+-
+    user:
+      id: 5
+      username: jconrad
+      email: jconrad@email.io
+      first_name: Joseph
+      last_name: Conrad
+      password: jconrad
+    role: Moderators
+-
+    user:
+      id: 6
+      username: gorwell
+      email: gorwelld@email.io
+      first_name: George
+      last_name: Orwell
+      password: gorwell
+    role: Customers
+-
+    user:
+      id: 7
+      username: fkafka
+      email: fkafka@email.io
+      first_name: Frantz
+      last_name: Kafka
+      password: fkafka
+    role: Customers
+-
+    user:
+      id: 8
+      username: jkessel
+      email: jkessel@email.io
+      first_name: Joseph
+      last_name: Kessel
+      password: jkessel
+    role: Customers

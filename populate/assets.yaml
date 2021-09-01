@@ -1,146 +1,206 @@
+- 
+    asset:
+        title: Appartement 01
+        slug: app01
+        path: app01
+        depth: 00010
+        asset_owner: jconrad
+        address_street: 14 rue de la madrague
+        address_zip: 83987
+        address_city: Cavalaire
+        asset_surface: 253
+        asset_type: Villa
+        tags:
+            - Mer
+            - Provence
 -
-  asset:
-    title: Appartement 01
-    slug: app01
-    path: app01
-    depth: 00010
-    asset_owner: jconrad
-    address_street: 14 rue de la madrague
-    address_zip: 83987
-    address_city: Cavalaire
-    asset_surface: 253
-    asset_type: Villa
-    tags:
-        - Mer
-        - Provence
+    asset:
+        title: Appartement 02
+        slug: app02
+        path: app02
+        depth: 00010
+        asset_owner: gorwell
+        address_street: 34 rue du port
+        address_zip: 83654
+        address_city: La Seyne
+        asset_surface: 50
+        asset_type: Villa
+        tags:
+            - Mer
+            - Provence
 -
-  asset:
-    title: Appartement 02
-    slug: app02
-    path: app02
-    depth: 00010
-    asset_owner: gorwell
-    address_street: 34 rue du port
-    address_zip: 83654
-    address_city: La Seyne
-    asset_surface: 50
-    asset_type: Villa
-    tags:
-        - Mer
-        - Provence
+    asset:
+        title: Villa en provence
+        slug: maison-provence-01
+        path: maison-provence-01
+        depth: 00010
+        asset_owner: jkessel
+        address_street: 14 rue de la madrague
+        address_zip: 83987
+        address_city: Cavalaire
+        asset_surface: 253
+        asset_type: Villa
+        tags:
+            - Mer
+            - Provence
 -
-  asset:
-    title: Villa en provence
-    slug: maison-provence-01
-    path: maison-provence-01
-    depth: 00010
-    asset_owner: jkessel
-    address_street: 14 rue de la madrague
-    address_zip: 83987
-    address_city: Cavalaire
-    asset_surface: 253
-    asset_type: Villa
-    tags:
-        - Mer
-        - Provence
+    asset:
+        title: Villa en provence
+        slug: villa01
+        path: villa01
+        depth: 00010
+        asset_owner: pduval
+        address_street: 14 rue de la madrague
+        address_zip: 83987
+        address_city: Cavalaire
+        asset_surface: 253
+        asset_type: Villa
+        tags:
+            - Mer
+            - Provence
 -
-  asset:
-    title: Villa en provence
-    slug: villa01
-    path: villa01
-    depth: 00010
-    asset_owner: pduval
-    address_street: 14 rue de la madrague
-    address_zip: 83987
-    address_city: Cavalaire
-    asset_surface: 253
-    asset_type: Villa
-    tags:
-        - Mer
-        - Provence
+    asset:
+        title: Villa en provence
+        slug: villa02
+        path: villa02
+        depth: 00010
+        asset_owner: jkessel
+        address_street: 14 rue de la madrague
+        address_zip: 83987
+        address_city: Cavalaire
+        asset_surface: 253
+        asset_type: Villa
+        tags:
+            - Mer
+            - Provence
 -
-  asset:
-    title: Villa en provence
-    slug: villa02
-    path: villa02
-    depth: 00010
-    asset_owner: jkessel
-    address_street: 14 rue de la madrague
-    address_zip: 83987
-    address_city: Cavalaire
-    asset_surface: 253
-    asset_type: Villa
-    tags:
-        - Mer
-        - Provence
+    asset:
+        title: Studio à la montagne
+        slug: studio-montagne
+        path: studio-montagne
+        asset_owner: gorwell
+        address_street: 654 chemin qui monte
+        address_zip: 06987
+        address_city: Isola
+        asset_surface: 20
+        asset_type: Studio
+        tags:
+            - Montagne
+            - Ski
+    rental_offers:
+        -
+            title: Studio à Isola 
+            depth: 00010
+            start_date: 2021-08-20 12:00
+            end_date: 2021-08-27 12:00
+            price: 1500
+            deposit: 750
+            description: >
+                Nullam eu ante vel est convallis dignissim.
+                Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio.  Nunc porta vulputate tellus.  Nunc rutrum turpis sed pede.  Sed bibendum.  Aliquam posuere.  Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.  Pellentesque condimentum, magna ut suscipit hendrerit, ipsum augue ornare nulla, non luctus diam neque sit amet urna.  Curabitur vulputate vestibulum lorem.  Fusce sagittis, libero non molestie mollis, magna orci ultrices dolor, at vulputate neque nulla lacinia eros.  Sed id ligula quis est convallis tempor.  Curabitur lacinia pulvinar nibh.  Nam a sapien.
+
 -
-  asset:
-    title: Studio à la montagne
-    slug: studio-montagne
-    path: studio-montagne
-    asset_owner: gorwell
-    address_street: 654 chemin qui monte
-    address_zip: 06987
-    address_city: Isola
-    asset_surface: 20
-    asset_type: Studio
-    tags:
-        - Montagne
-        - Ski
+    asset:
+        title: Chalet à la montagne 01
+        slug: chalet01
+        path: chalet01
+        asset_owner: gorwell
+        address_street: 654 chemin qui monte
+        address_zip: 06987
+        address_city: Isola
+        asset_surface: 75
+        asset_type: Chalet
+        tags:
+            - Montagne
+            - Ski
+    rental_offers:
+        -
+            title: Chalet à Isola 
+            depth: 00010
+            start_date: 2021-08-20 12:00
+            end_date: 2021-08-27 12:00
+            price: 1500
+            deposit: 750
+            description: >
+                Nullam eu ante vel est convallis dignissim.
+                Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio.  Nunc porta vulputate tellus.  Nunc rutrum turpis sed pede.  Sed bibendum.  Aliquam posuere.  Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.  Pellentesque condimentum, magna ut suscipit hendrerit, ipsum augue ornare nulla, non luctus diam neque sit amet urna.  Curabitur vulputate vestibulum lorem.  Fusce sagittis, libero non molestie mollis, magna orci ultrices dolor, at vulputate neque nulla lacinia eros.  Sed id ligula quis est convallis tempor.  Curabitur lacinia pulvinar nibh.  Nam a sapien.
+
 -
-  asset:
-    title: Chalet à la montagne 01
-    slug: chalet01
-    path: chalet01
-    asset_owner: gorwell
-    address_street: 654 chemin qui monte
-    address_zip: 06987
-    address_city: Isola
-    asset_surface: 75
-    asset_type: Chalet
-    tags:
-        - Montagne
-        - Ski
+    asset:
+        title: Chalet à la montagne 02
+        slug: chalet02
+        path: chalet02
+        asset_owner: jprevert
+        address_street: 78 route du col
+        address_zip: 06258
+        address_city: Auron
+        asset_surface: 25
+        asset_type: Chalet
+        tags:
+            - Montagne
+            - Ski
+    rental_offers:
+        -
+            title: Chalet à la montagne 02
+            depth: 00010
+            start_date: 2021-08-20 12:00
+            end_date: 2021-08-27 12:00
+            price: 1500
+            deposit: 750
+            description: >
+                Nullam eu ante vel est convallis dignissim.
+                Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio.  Nunc porta vulputate tellus.  Nunc rutrum turpis sed pede.  Sed bibendum.  Aliquam posuere.  Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.  Pellentesque condimentum, magna ut suscipit hendrerit, ipsum augue ornare nulla, non luctus diam neque sit amet urna.  Curabitur vulputate vestibulum lorem.  Fusce sagittis, libero non molestie mollis, magna orci ultrices dolor, at vulputate neque nulla lacinia eros.  Sed id ligula quis est convallis tempor.  Curabitur lacinia pulvinar nibh.  Nam a sapien.
+
 -
-  asset:
-    title: Chalet à la montagne 02
-    slug: chalet02
-    path: chalet02
-    asset_owner: jprevert
-    address_street: 78 route du col
-    address_zip: 06258
-    address_city: Auron
-    asset_surface: 25
-    asset_type: Chalet
-    tags:
-        - Montagne
-        - Ski
+    asset:
+        title: Chalet à la montagne 03
+        slug: chalet03
+        path: chalet03
+        asset_owner: fkafka
+        address_street: 32 place du café
+        address_zip: 06258
+        address_city: Auron
+        asset_surface: 75
+        asset_type: Chalet
+        tags:
+            - Montagne
+            - Ski
+
+    rental_offers:
+        -
+            title: Chalet à la montagne 03
+            depth: 00010
+            start_date: 2021-08-20 12:00
+            end_date: 2021-08-27 12:00
+            price: 1500
+            deposit: 750
+            description: >
+                Nullam eu ante vel est convallis dignissim.
+                Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio.  Nunc porta vulputate tellus.  Nunc rutrum turpis sed pede.  Sed bibendum.  Aliquam posuere.  Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.  Pellentesque condimentum, magna ut suscipit hendrerit, ipsum augue ornare nulla, non luctus diam neque sit amet urna.  Curabitur vulputate vestibulum lorem.  Fusce sagittis, libero non molestie mollis, magna orci ultrices dolor, at vulputate neque nulla lacinia eros.  Sed id ligula quis est convallis tempor.  Curabitur lacinia pulvinar nibh.  Nam a sapien.
+
 -
-  asset:
-    title: Chalet à la montagne 03
-    slug: chalet03
-    path: chalet03
-    asset_owner: fkafka
-    address_street: 32 place du café
-    address_zip: 06258
-    address_city: Auron
-    asset_surface: 75
-    asset_type: Chalet
-    tags:
-        - Montagne
-        - Ski
--
-  asset:
-    title: Villa en provence verte
-    slug: maison-provence-02
-    path: maison-provence-02
-    depth: 00010
-    asset_owner: fkafka
-    address_street: 78 rue du puis
-    address_zip: 83951
-    address_city: Le Mole
-    asset_surface: 125
-    asset_type: Villa
-    tags: 
-        - Provence
-        - Campagne
+    asset:
+        title: Villa en provence verte
+        slug: maison-provence-02
+        path: maison-provence-02
+        depth: 00010
+        asset_owner: fkafka
+        address_street: 78 rue du puis
+        address_zip: 83951
+        address_city: Le Mole
+        asset_surface: 125
+        asset_type: Villa
+        tags: 
+            - Provence
+            - Campagne
+    rental_offers:
+        -
+            title: Villa en provence
+            depth: 00010
+            start_date: 2021-08-20 12:00
+            end_date: 2021-08-27 12:00
+            price: 1500
+            deposit: 750
+            description: >
+                Nullam eu ante vel est convallis dignissim.
+                Fusce suscipit, wisi nec facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis odio.  Nunc porta vulputate tellus.  Nunc rutrum turpis sed pede.  Sed bibendum.  Aliquam posuere.  Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada massa, quis varius mi purus non odio.  Pellentesque condimentum, magna ut suscipit hendrerit, ipsum augue ornare nulla, non luctus diam neque sit amet urna.  Curabitur vulputate vestibulum lorem.  Fusce sagittis, libero non molestie mollis, magna orci ultrices dolor, at vulputate neque nulla lacinia eros.  Sed id ligula quis est convallis tempor.  Curabitur lacinia pulvinar nibh.  Nam a sapien.
